@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Kesimpulan: &#8212; My sample book</title>
+    <title>uts &#8212; My sample book</title>
   
   
   
@@ -148,8 +148,14 @@
   
   
   
+    
+    
+      
+    
+    
+    <img src="_static/fotoIcha.jpg" class="logo__image only-light" alt="My sample book - Home"/>
+    <script>document.write(`<img src="_static/fotoIcha.jpg" class="logo__image only-dark" alt="My sample book - Home"/>`);</script>
   
-    <p class="title logo__title">My sample book</p>
   
 </a></div>
         <div class="sidebar-primary-item">
@@ -174,7 +180,7 @@
             </li>
         </ul>
         <ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Kesimpulan:</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">uts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="K_means.html">K-MEANS CLUSTER 2,3 DAN 4</a></li>
 </ul>
 
@@ -348,7 +354,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
 </div></div>
       
     </div>
@@ -359,11 +367,19 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Kesimpulan:</h1>
+    <h1>uts</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">Kesimpulan:</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -373,15 +389,16 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <div class="cell docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="uts">
+<h1>uts<a class="headerlink" href="#uts" title="Link to this heading">#</a></h1>
+<div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ucimlrepo</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting ucimlrepo
-  Downloading ucimlrepo-0.0.7-py3-none-any.whl.metadata (5.5 kB)
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: ucimlrepo in /usr/local/python/3.12.1/lib/python3.12/site-packages (0.0.7)
 Requirement already satisfied: pandas&gt;=1.0.0 in /home/codespace/.local/lib/python3.12/site-packages (from ucimlrepo) (2.2.3)
 Requirement already satisfied: certifi&gt;=2020.12.5 in /home/codespace/.local/lib/python3.12/site-packages (from ucimlrepo) (2025.1.31)
 </pre></div>
@@ -391,13 +408,9 @@ Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/codespace/.loc
 Requirement already satisfied: pytz&gt;=2020.1 in /home/codespace/.local/lib/python3.12/site-packages (from pandas&gt;=1.0.0-&gt;ucimlrepo) (2025.1)
 Requirement already satisfied: tzdata&gt;=2022.7 in /home/codespace/.local/lib/python3.12/site-packages (from pandas&gt;=1.0.0-&gt;ucimlrepo) (2025.1)
 Requirement already satisfied: six&gt;=1.5 in /home/codespace/.local/lib/python3.12/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas&gt;=1.0.0-&gt;ucimlrepo) (1.17.0)
-Downloading ucimlrepo-0.0.7-py3-none-any.whl (8.0 kB)
 </pre></div>
 </div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: ucimlrepo
-Successfully installed ucimlrepo-0.0.7
-
-<span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> A new release of pip is available: <span class=" -Color -Color-Red">25.0.1</span> -&gt; <span class=" -Color -Color-Green">25.1.1</span>
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span><span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> A new release of pip is available: <span class=" -Color -Color-Red">25.0.1</span> -&gt; <span class=" -Color -Color-Green">25.1.1</span>
 <span class=" -Color -Color-Bold">[</span><span class=" -Color -Color-Blue">notice</span><span class=" -Color -Color-Bold">]</span> To update, run: <span class=" -Color -Color-Green">python3 -m pip install --upgrade pip</span>
 </pre></div>
 </div>
@@ -879,7 +892,7 @@ Jika terdapat kolom <code class="docutils literal notranslate"><span class="pre"
 Dengan menggunakan <code class="docutils literal notranslate"><span class="pre">sns.heatmap()</span></code>, dibuatlah visualisasi korelasi antar fitur numerik. Heatmap ini memperlihatkan sejauh mana masing-masing variabel numerik saling berhubungan, baik secara positif maupun negatif. Korelasi ini penting dalam proses feature selection atau untuk menghindari multikolinearitas dalam pemodelan.</p></li>
 </ol>
 <section id="kesimpulan">
-<h1>Kesimpulan:<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h1>
+<h2>Kesimpulan:<a class="headerlink" href="#kesimpulan" title="Link to this heading">#</a></h2>
 <p>Rangkaian kode ini merupakan bagian dari tahap <strong>eksplorasi data (exploratory data analysis/EDA)</strong>. Tujuannya adalah untuk memahami struktur, distribusi, dan hubungan dalam dataset sebelum melangkah ke tahap preprocessing dan pemodelan machine learning. Visualisasi dan analisis awal ini sangat berguna untuk merancang strategi yang tepat dalam proses analitik selanjutnya.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -983,6 +996,7 @@ Akurasi Model: 75.00%
 </ol>
 <p>Kode tersebut digunakan untuk melakukan evaluasi model klasifikasi secara komprehensif dan profesional. Pertama, model digunakan untuk memprediksi data uji, lalu hasilnya dibandingkan dengan label asli menggunakan confusion matrix yang divisualisasikan dalam bentuk heatmap untuk mempermudah interpretasi kesalahan dan keberhasilan klasifikasi antar kelas. Selanjutnya, metrik evaluasi seperti precision, recall, dan f1-score ditampilkan dalam bentuk tabel menggunakan pandas.DataFrame, memberikan gambaran detail tentang performa model untuk tiap kelas. Terakhir, akurasi model dihitung menggunakan accuracy_score dan ditampilkan dalam bentuk persentase, yang mencerminkan seberapa banyak prediksi model yang benar secara keseluruhan. Pendekatan ini sangat cocok untuk analisis laporan, dokumentasi hasil, atau presentasi karena menyajikan evaluasi secara visual dan numerik dengan jelas.</p>
 </section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -1038,6 +1052,21 @@ Akurasi Model: 75.00%
             </div>
             
             
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#kesimpulan">Kesimpulan:</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
